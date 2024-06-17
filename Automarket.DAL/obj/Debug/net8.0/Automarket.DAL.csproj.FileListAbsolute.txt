@@ -1,0 +1,15 @@
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\bin\Debug\net8.0\Automarket.DAL.deps.json
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\bin\Debug\net8.0\Automarket.DAL.dll
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\bin\Debug\net8.0\Automarket.DAL.pdb
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\bin\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\bin\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.AssemblyInfoInputs.cache
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.AssemblyInfo.cs
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automark.A7B2FA00.Up2Date
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.dll
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\refint\Automarket.DAL.dll
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.pdb
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\ref\Automarket.DAL.dll
