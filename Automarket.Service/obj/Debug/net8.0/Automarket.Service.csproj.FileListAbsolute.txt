@@ -15,3 +15,4 @@ C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.Service\obj\Debug\net8.0\Au
 C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.Service\obj\Debug\net8.0\refint\Automarket.Service.dll
 C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.Service\obj\Debug\net8.0\Automarket.Service.pdb
 C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.Service\obj\Debug\net8.0\ref\Automarket.Service.dll
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.Service\obj\Debug\net8.0\Automarket.Service.sourcelink.json

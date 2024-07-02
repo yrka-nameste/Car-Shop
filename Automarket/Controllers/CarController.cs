@@ -4,6 +4,9 @@ using Automarket.Domain.ViewModels.Car;
 using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IO;
+using System.Linq;
+using Microsoft.AspNetCore.Http;
 
 namespace Automarket.Controllers;
 
@@ -15,14 +18,15 @@ public class CarController : Controller
     {
         _carService = carService;
     }
+
     [HttpGet]
     public async Task<IActionResult> GetCars()
     {
-        
+
         var response = await _carService.GetCars();
         if (response.StatusCode == Domain.Enum.StatusCode.Ok)
         {
-            return View(response.Data);
+            return View(response.Data.ToList());
         }
 
         return RedirectToAction("Error");
@@ -37,6 +41,8 @@ public class CarController : Controller
             return View(response.Data);
         }
         return RedirectToAction("Error");
+
+       
     }
 
     [Authorize(Roles = "Admin")]
@@ -47,6 +53,7 @@ public class CarController : Controller
         {
             return RedirectToAction("GetCars");
         }
+
         return RedirectToAction("Error");
     }
 
@@ -58,33 +65,51 @@ public class CarController : Controller
         {
             return View();
         }
+
         var response = await _carService.GetCar(id);
         if (response.StatusCode == Domain.Enum.StatusCode.Ok)
         {
             return View(response.Data);
         }
+
         return RedirectToAction("Error");
-        
+
     }
+
     [HttpPost]
-    public async Task<IActionResult> Save(CarViewModel carViewModel)
+    public async Task<IActionResult> Save(CarViewModel model)
     {
+        ModelState.Remove("DateCreate");
         if (ModelState.IsValid)
         {
-            if (carViewModel.Id == 0)
+            if (ModelState.IsValid)
             {
-                await _carService.CreateCar(carViewModel);
-            }
-            else
-            {
-                await _carService.Edit(carViewModel.Id, carViewModel);
+                if (model.Id == 0)
+                {
+                    byte[] imageData;
+                    using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
+                    {
+                        imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
+                    }
+                    await _carService.Create(model, imageData);
+                }
+                else
+                {
+                    await _carService.Edit(model.Id, model);
+                }
+
+
+
+                return RedirectToAction("GetCars");
             }
         }
 
-        return RedirectToAction("GetCars");
+        return View();
 
 
+        }
     }
-    
-}
+
+
+
 

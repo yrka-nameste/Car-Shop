@@ -14,9 +14,17 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Hi-tech\RiderProjects\Automarket\Automarket
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Hi-tech/RiderProjects/Automarket/Automarket/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hi-tech/RiderProjects/Automarket/Automarket/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hi-tech/RiderProjects/Automarket/Automarket/Views/Car/GetCar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXEdldENhci5jc2h0bWw=
@@ -24,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Hi-tech/RiderProjects/Automarket/Automarket/Views/Car/GetCars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXEdldENhcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hi-tech/RiderProjects/Automarket/Automarket/Views/Car/Save.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXFNhdmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hi-tech/RiderProjects/Automarket/Automarket/Views/Home/Index.cshtml]

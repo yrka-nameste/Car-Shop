@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Automarket.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\789987.inco",
+      "PackagePath": "staticwebassets\\789987.inco"
+    },
+    {
       "Id": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\css\\backImage.css",
       "PackagePath": "staticwebassets\\css\\backImage.css"
     },
@@ -27,10 +31,6 @@
     {
       "Id": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\js\\site.js",

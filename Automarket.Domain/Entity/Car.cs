@@ -20,5 +20,7 @@ public class Car
     
     public TypeCare TypeCare { get; set;}
     
+    public byte[]? Avatar { get; set; }
+    
 }
 

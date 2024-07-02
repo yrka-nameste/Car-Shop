@@ -13,3 +13,4 @@ C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automa
 C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\refint\Automarket.DAL.dll
 C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.pdb
 C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\ref\Automarket.DAL.dll
+C:\Users\Hi-tech\RiderProjects\Automarket\Automarket.DAL\obj\Debug\net8.0\Automarket.DAL.sourcelink.json

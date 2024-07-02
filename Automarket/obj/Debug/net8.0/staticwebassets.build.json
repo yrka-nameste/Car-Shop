@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nDcr56BWUZjrQQeRjzMUNWmfXGwfLrrFieCJm1HTpis=",
+  "Hash": "D0xL4ZRCZYPantyLqH6f4o7/ief3Jpu3r670VcgqXt0=",
   "Source": "Automarket",
   "BasePath": "_content/Automarket",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Automarket.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\789987.inco",
+      "SourceId": "Automarket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\",
+      "BasePath": "_content/Automarket",
+      "RelativePath": "789987.inco",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\789987.inco"
     },
     {
       "Identity": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\css\\backImage.css",
@@ -167,25 +186,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\favicon.ico",
-      "SourceId": "Automarket",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\",
-      "BasePath": "_content/Automarket",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\Hi-tech\\RiderProjects\\Automarket\\Automarket\\wwwroot\\js\\site.js",

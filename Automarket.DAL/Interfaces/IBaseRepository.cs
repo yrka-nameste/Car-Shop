@@ -1,16 +1,14 @@
 ﻿using Automarket.Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Automarket.DAL.Interfaces;
 
 public interface IBaseRepository<T>
 {
-    Task<bool> Create(T entity);
-
-    Task<Car> Get(int id);
-
-    Task<List<Car>> Select();
-
-    Task<bool> Delete(T entity);
+    Task Create(T entity);
+    
+   IQueryable<T> GetAll();
+   Task Delete(T entity);
 
     Task<T> Update(T entity);
 }
